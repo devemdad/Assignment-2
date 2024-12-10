@@ -16,15 +16,28 @@ isOdd(12);
 
 
 // 3 No Question
-function findMin(num) {
-    if (num.length === 0) {
-        throw new Error("Array cannot be empty");
+// function findMin(num) {
+//     if (num.length === 0) {
+//         throw new Error("Array cannot be empty");
+//     }
+//     return Math.min(...num);
+// }
+
+// console.log(findMin([17, 10, 35, 8, 25]));
+
+
+// Or
+function findMin(num){
+    let min = num[0];
+    for(let i = 0; i < num.length; i++){
+        let element = num[i];
+        if(element < min){
+            min = element;
+        }
     }
-    return Math.min(...num);
+    return min;
 }
-
-console.log(findMin([17, 10, 35, 8, 25]));
-
+console.log(findMin([20, 3, 12, 25, 18]));
 
 
 
