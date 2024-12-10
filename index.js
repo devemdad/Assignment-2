@@ -1,0 +1,39 @@
+// 1 No Question
+function calculateDifference(a, b) {
+    return a - b;
+}
+console.log(calculateDifference(10, 5));
+
+// 2 No Question
+function isOdd(x){
+    if(x % 2 !==0){
+        console.log(x, "is a odd number.");
+    }else{
+        console.log(x, "is not a odd number.");
+    }
+}
+isOdd(12);
+
+
+// 3 No Question
+function findMin(num) {
+    if (num.length === 0) {
+        throw new Error("Array cannot be empty");
+    }
+    return Math.min(...num);
+}
+
+console.log(findMin([17, 10, 35, 8, 25]));
+
+
+
+
+// 4 No Question
+
+function filterEvenNumbers(numbers) {
+    return numbers.filter(number => number % 2 === 0);
+}
+
+const numbersArray = [1, 2, 3, 4, 5, 6];
+const evenNumbers = filterEvenNumbers(numbersArray);
+console.log(evenNumbers);
