@@ -40,3 +40,13 @@ const evenNumbers = filterEvenNumbers(numbersArray);
 console.log(evenNumbers);
 
 
+// 5 No Question
+function sortArrayDescending(numbers) {
+    return numbers.slice().sort((a, b) => b - a);
+}
+
+const numbersArray1 = [5, 3, 8, 1, 2];
+const sortedArray = sortArrayDescending(numbersArray1);
+console.log(sortedArray);
+
+
