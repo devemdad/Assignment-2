@@ -73,3 +73,14 @@ function findAverage(arr) {
 const arr = [10, 20, 30, 40, 50];
 const average = findAverage(arr);
 console.log("Average:", average);
+
+
+// 8 No Question
+function isLeapYear(year){
+    if(year % 400 == 0) return true;
+    if(year % 100 == 0) return false;
+    if(year % 4 == 0) return true;
+    return false;
+}
+
+console.log(isLeapYear(2004));
