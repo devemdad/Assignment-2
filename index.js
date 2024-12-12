@@ -50,3 +50,14 @@ const sortedArray = sortArrayDescending(numbersArray1);
 console.log(sortedArray);
 
 
+// 6 No Question
+function lowercaseFirstLetter(str) {
+    if (!str) {
+        return str;
+    }
+    return str.charAt(0).toLowerCase() + str.slice(1);
+}
+
+console.log(lowercaseFirstLetter("TIPU"));
+
+
