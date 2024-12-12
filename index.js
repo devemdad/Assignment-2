@@ -61,3 +61,15 @@ function lowercaseFirstLetter(str) {
 console.log(lowercaseFirstLetter("TIPU"));
 
 
+// 7 No Question
+function findAverage(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
+
+const arr = [10, 20, 30, 40, 50];
+const average = findAverage(arr);
+console.log("Average:", average);
