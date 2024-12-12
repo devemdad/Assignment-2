@@ -28,3 +28,15 @@ function findMin(num){
     return min;
 }
 console.log(findMin([20, 3, 12, 25, 2, 18]));
+
+
+// 4 No Question
+function filterEvenNumbers(numbers) {
+    return numbers.filter(number => number % 2 === 0);
+}
+
+const numbersArray = [1, 2, 3, 4, 5, 6];
+const evenNumbers = filterEvenNumbers(numbersArray);
+console.log(evenNumbers);
+
+
