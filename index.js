@@ -14,3 +14,17 @@ function isOdd(x){
     }
 }
 console.log(isOdd(11));
+
+
+// 3 No Question
+function findMin(num){
+    let min = num[0];
+    for(let i = 0; i < num.length; i++){
+        let element = num[i];
+        if(element < min){
+            min = element;
+        }
+    }
+    return min;
+}
+console.log(findMin([20, 3, 12, 25, 2, 18]));
